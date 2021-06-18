@@ -1,0 +1,20 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/g-delmo/typescript-node-starter.git",
+  "author": "Guillermo del Molino <guillermodelmolino@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.3",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
